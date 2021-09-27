@@ -1,3 +1,4 @@
+// If example 
 /* const raining = false;
 const cold = true;
 
@@ -11,6 +12,8 @@ if(cold) {
 
 console.log("Now you're ready to go outside"); */
 
+// If Else example
+
 /* const cold = false;
 
 if (cold) {
@@ -19,14 +22,36 @@ if (cold) {
   console.log("Short sleeves are fine.");
 } */
 
-const temperature = -2;
+// If Else If example
 
-if (temperature < 0) {
+/* const temperature = 34;
+
+ if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
 } else if (temperature < 15) {
   console.log("Short sleeves won't cut it");
 } else {
   console.log("Short sleeves are fine.");
 }
+if(temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea..");
+}
 
-console.log("Now you're ready to go outside!");
+
+console.log("Now you're ready to go outside!"); 
+ */
+
+// Logical operators
+
+/* const isCitizen = true;
+const age = 26;
+
+if(isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+} */
+
+const raining = true;
+
+if(!raining) {
+  console.log("Levae your umbrella at home!");
+}
